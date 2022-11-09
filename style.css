@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito+Sans:wght@300;700&family=Prompt:ital,wght@0,400;1,300&family=Saira+Extra+Condensed:wght@300&family=Stick+No+Bills:wght@300;600&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+:root {
+    --primary-color: #f97316;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid var(--primary-color);
+    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    /* border: #f97316; */
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+table {
+    margin: 0rem 30rem;
+    align-items: center;
+    /* border: 1px solid var(--primary-color); */
+}
+
+.container {
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+}
+
+tr {
+    /* border-bottom: 1px solid var(--primary-color); */
+    margin: 0px;
+    border: 2px solid var(--primary-color);
+}
+
+td {
+    padding: 1rem;
+    /* border: 2px solid var(--primary-color); */
+
+}
+
+/* .table-container {
+    border: 1px solid var(--primary-color);
+} */

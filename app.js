@@ -24,11 +24,11 @@ calculateChange.addEventListener("click", function eventHandler() {
 
         else{
 
-            showErrorMessage("cash amount is invalid");
+            showErrorMessage("Do you wanna wash plates? If not, please enter cash amount correctly!");
             
         }
 } else {
-        showErrorMessage("invalid bill amount");
+        showErrorMessage("Invalid bill amount");
     }
 });
 
