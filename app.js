@@ -12,12 +12,15 @@ const returnnotes = document.querySelectorAll(".no-of-notes");
 calculateChange.addEventListener("click", function eventHandler() {
    hideMessage();
    
-    if ((billAmount.value > 0) && (billAmount.value != null)) {
+   var billAmt = Number(billAmount.value);
+   var cashGvn = Number(cashGiven.value);
+   
+    if ((billAmt > 0) && (cashGvn > 0)) {
         // label.style.display="block";
         // cashGiven.style.display ="block";
 
-        if (cashGiven.value >= billAmount.value ){
-            amounttoReturn =cashGiven.value -billAmount.value;
+        if (cashGvn >= billAmt){
+            amounttoReturn = cashGvn - billAmt;
             calculateAmounttobeReturned(amounttoReturn);
 
         } 
