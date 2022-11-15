@@ -6,4 +6,4 @@ This is an app which tells the number of notes to be return of  Rs. 1, 5, 10, 20
 
 - _HTML_
 - _CSS_
-- _VanilaJS_
+- _VanillaJS_
